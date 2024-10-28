@@ -8,12 +8,10 @@ public class Book extends LibraryItem {
         this.type = type;
     }
 
-    // Created abstract method for item type.
     public String getItemType(){
         return "Book - " + type;
     }
 
-    // Created getter and setter methods.
     public String getType(){
         return type;
     }
@@ -21,8 +19,7 @@ public class Book extends LibraryItem {
     public void setType(String type){
         this.type = type;
     }
-
-    // Created toString method.
+    
     public String toString(){
         return super.toString() + ", Book Type='" + type + "'";
     }
